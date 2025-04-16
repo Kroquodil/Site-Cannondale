@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Connexion</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <meta name="description" content="Un mini site pour parler du Cannondale Habit 4, ses caractéristiques techniques et quelques avis.">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Connexion</h1>
+            <a href="index.html">Retour</a>
+        </header>
+
+        <main>
+            <section>
+                <h2>Connexion</h2>
+                <form action="submit_connexion.php" method="POST">
+                    <label for="username">Nom d'utilisateur:</label><br>
+                    <input type="text" id="username" name="username" required><br><br>
+
+                    <label for="password">Mot de passe:</label><br>
+                    <input type="password" id="password" name="password" required><br><br>
+
+                    <input type="submit" value="Se connecter">
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2023 Cannondale. Tous droits réservés.</p>
+        </footer>
+    </body>
+</html>
